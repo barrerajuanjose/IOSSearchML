@@ -1,0 +1,436 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FC90AA7A1A0CFBEC00E0EA30 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FC90AA791A0CFBEC00E0EA30 /* main.m */; };
+		FC90AA7D1A0CFBEC00E0EA30 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FC90AA7C1A0CFBEC00E0EA30 /* AppDelegate.m */; };
+		FC90AA801A0CFBEC00E0EA30 /* IOSSearchML.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FC90AA7E1A0CFBEC00E0EA30 /* IOSSearchML.xcdatamodeld */; };
+		FC90AA881A0CFBEC00E0EA30 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC90AA871A0CFBEC00E0EA30 /* Images.xcassets */; };
+		FC90AA8B1A0CFBEC00E0EA30 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC90AA891A0CFBEC00E0EA30 /* LaunchScreen.xib */; };
+		FC90AA971A0CFBEC00E0EA30 /* IOSSearchMLTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FC90AA961A0CFBEC00E0EA30 /* IOSSearchMLTests.m */; };
+		FC90AAA31A0CFC1700E0EA30 /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC90AAA11A0CFC1700E0EA30 /* SearchViewController.m */; };
+		FC90AAA41A0CFC1700E0EA30 /* SearchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC90AAA21A0CFC1700E0EA30 /* SearchViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FC90AA911A0CFBEC00E0EA30 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC90AA6C1A0CFBEC00E0EA30 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC90AA731A0CFBEC00E0EA30;
+			remoteInfo = IOSSearchML;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FC90AA741A0CFBEC00E0EA30 /* IOSSearchML.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IOSSearchML.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC90AA781A0CFBEC00E0EA30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC90AA791A0CFBEC00E0EA30 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FC90AA7B1A0CFBEC00E0EA30 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FC90AA7C1A0CFBEC00E0EA30 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FC90AA7F1A0CFBEC00E0EA30 /* IOSSearchML.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = IOSSearchML.xcdatamodel; sourceTree = "<group>"; };
+		FC90AA871A0CFBEC00E0EA30 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FC90AA8A1A0CFBEC00E0EA30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		FC90AA901A0CFBEC00E0EA30 /* IOSSearchMLTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IOSSearchMLTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC90AA951A0CFBEC00E0EA30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC90AA961A0CFBEC00E0EA30 /* IOSSearchMLTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IOSSearchMLTests.m; sourceTree = "<group>"; };
+		FC90AAA01A0CFC1700E0EA30 /* SearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchViewController.h; sourceTree = "<group>"; };
+		FC90AAA11A0CFC1700E0EA30 /* SearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchViewController.m; sourceTree = "<group>"; };
+		FC90AAA21A0CFC1700E0EA30 /* SearchViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SearchViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FC90AA711A0CFBEC00E0EA30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC90AA8D1A0CFBEC00E0EA30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FC90AA6B1A0CFBEC00E0EA30 = {
+			isa = PBXGroup;
+			children = (
+				FC90AA761A0CFBEC00E0EA30 /* IOSSearchML */,
+				FC90AA931A0CFBEC00E0EA30 /* IOSSearchMLTests */,
+				FC90AA751A0CFBEC00E0EA30 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FC90AA751A0CFBEC00E0EA30 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC90AA741A0CFBEC00E0EA30 /* IOSSearchML.app */,
+				FC90AA901A0CFBEC00E0EA30 /* IOSSearchMLTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FC90AA761A0CFBEC00E0EA30 /* IOSSearchML */ = {
+			isa = PBXGroup;
+			children = (
+				FC90AA7B1A0CFBEC00E0EA30 /* AppDelegate.h */,
+				FC90AA7C1A0CFBEC00E0EA30 /* AppDelegate.m */,
+				FC90AA871A0CFBEC00E0EA30 /* Images.xcassets */,
+				FC90AA891A0CFBEC00E0EA30 /* LaunchScreen.xib */,
+				FC90AA7E1A0CFBEC00E0EA30 /* IOSSearchML.xcdatamodeld */,
+				FC90AA771A0CFBEC00E0EA30 /* Supporting Files */,
+				FC90AAA01A0CFC1700E0EA30 /* SearchViewController.h */,
+				FC90AAA11A0CFC1700E0EA30 /* SearchViewController.m */,
+				FC90AAA21A0CFC1700E0EA30 /* SearchViewController.xib */,
+			);
+			path = IOSSearchML;
+			sourceTree = "<group>";
+		};
+		FC90AA771A0CFBEC00E0EA30 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FC90AA781A0CFBEC00E0EA30 /* Info.plist */,
+				FC90AA791A0CFBEC00E0EA30 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FC90AA931A0CFBEC00E0EA30 /* IOSSearchMLTests */ = {
+			isa = PBXGroup;
+			children = (
+				FC90AA961A0CFBEC00E0EA30 /* IOSSearchMLTests.m */,
+				FC90AA941A0CFBEC00E0EA30 /* Supporting Files */,
+			);
+			path = IOSSearchMLTests;
+			sourceTree = "<group>";
+		};
+		FC90AA941A0CFBEC00E0EA30 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FC90AA951A0CFBEC00E0EA30 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FC90AA731A0CFBEC00E0EA30 /* IOSSearchML */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC90AA9A1A0CFBEC00E0EA30 /* Build configuration list for PBXNativeTarget "IOSSearchML" */;
+			buildPhases = (
+				FC90AA701A0CFBEC00E0EA30 /* Sources */,
+				FC90AA711A0CFBEC00E0EA30 /* Frameworks */,
+				FC90AA721A0CFBEC00E0EA30 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IOSSearchML;
+			productName = IOSSearchML;
+			productReference = FC90AA741A0CFBEC00E0EA30 /* IOSSearchML.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FC90AA8F1A0CFBEC00E0EA30 /* IOSSearchMLTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC90AA9D1A0CFBEC00E0EA30 /* Build configuration list for PBXNativeTarget "IOSSearchMLTests" */;
+			buildPhases = (
+				FC90AA8C1A0CFBEC00E0EA30 /* Sources */,
+				FC90AA8D1A0CFBEC00E0EA30 /* Frameworks */,
+				FC90AA8E1A0CFBEC00E0EA30 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC90AA921A0CFBEC00E0EA30 /* PBXTargetDependency */,
+			);
+			name = IOSSearchMLTests;
+			productName = IOSSearchMLTests;
+			productReference = FC90AA901A0CFBEC00E0EA30 /* IOSSearchMLTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FC90AA6C1A0CFBEC00E0EA30 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = ACME;
+				TargetAttributes = {
+					FC90AA731A0CFBEC00E0EA30 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					FC90AA8F1A0CFBEC00E0EA30 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = FC90AA731A0CFBEC00E0EA30;
+					};
+				};
+			};
+			buildConfigurationList = FC90AA6F1A0CFBEC00E0EA30 /* Build configuration list for PBXProject "IOSSearchML" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FC90AA6B1A0CFBEC00E0EA30;
+			productRefGroup = FC90AA751A0CFBEC00E0EA30 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FC90AA731A0CFBEC00E0EA30 /* IOSSearchML */,
+				FC90AA8F1A0CFBEC00E0EA30 /* IOSSearchMLTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FC90AA721A0CFBEC00E0EA30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC90AA8B1A0CFBEC00E0EA30 /* LaunchScreen.xib in Resources */,
+				FC90AA881A0CFBEC00E0EA30 /* Images.xcassets in Resources */,
+				FC90AAA41A0CFC1700E0EA30 /* SearchViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC90AA8E1A0CFBEC00E0EA30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FC90AA701A0CFBEC00E0EA30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC90AA7D1A0CFBEC00E0EA30 /* AppDelegate.m in Sources */,
+				FC90AA801A0CFBEC00E0EA30 /* IOSSearchML.xcdatamodeld in Sources */,
+				FC90AAA31A0CFC1700E0EA30 /* SearchViewController.m in Sources */,
+				FC90AA7A1A0CFBEC00E0EA30 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC90AA8C1A0CFBEC00E0EA30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC90AA971A0CFBEC00E0EA30 /* IOSSearchMLTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FC90AA921A0CFBEC00E0EA30 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC90AA731A0CFBEC00E0EA30 /* IOSSearchML */;
+			targetProxy = FC90AA911A0CFBEC00E0EA30 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FC90AA891A0CFBEC00E0EA30 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC90AA8A1A0CFBEC00E0EA30 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FC90AA981A0CFBEC00E0EA30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FC90AA991A0CFBEC00E0EA30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FC90AA9B1A0CFBEC00E0EA30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = IOSSearchML/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FC90AA9C1A0CFBEC00E0EA30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = IOSSearchML/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FC90AA9E1A0CFBEC00E0EA30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = IOSSearchMLTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IOSSearchML.app/IOSSearchML";
+			};
+			name = Debug;
+		};
+		FC90AA9F1A0CFBEC00E0EA30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = IOSSearchMLTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IOSSearchML.app/IOSSearchML";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FC90AA6F1A0CFBEC00E0EA30 /* Build configuration list for PBXProject "IOSSearchML" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC90AA981A0CFBEC00E0EA30 /* Debug */,
+				FC90AA991A0CFBEC00E0EA30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC90AA9A1A0CFBEC00E0EA30 /* Build configuration list for PBXNativeTarget "IOSSearchML" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC90AA9B1A0CFBEC00E0EA30 /* Debug */,
+				FC90AA9C1A0CFBEC00E0EA30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FC90AA9D1A0CFBEC00E0EA30 /* Build configuration list for PBXNativeTarget "IOSSearchMLTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC90AA9E1A0CFBEC00E0EA30 /* Debug */,
+				FC90AA9F1A0CFBEC00E0EA30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FC90AA7E1A0CFBEC00E0EA30 /* IOSSearchML.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FC90AA7F1A0CFBEC00E0EA30 /* IOSSearchML.xcdatamodel */,
+			);
+			currentVersion = FC90AA7F1A0CFBEC00E0EA30 /* IOSSearchML.xcdatamodel */;
+			path = IOSSearchML.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FC90AA6C1A0CFBEC00E0EA30 /* Project object */;
+}
